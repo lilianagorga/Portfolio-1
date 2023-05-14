@@ -1,3 +1,5 @@
 [submodule "dist/img"]
-    path = dist/img
-    url = https://github.com/bradtraversy/modern_portfolio.git
+	path = dist/img
+	url = https://github.com/bradtraversy/modern_portfolio.git
+	branch = main 
+
