@@ -2,9 +2,10 @@
   "name": "portfolio-3",
   "version": "1.0.0",
   "description": "## Teck Stack  * Html * Css * Vanilla JavaScript",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w src/scss/main.scss -o dist/css/main.css --recursive --watch"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,9 @@
     "url": "https://github.com/lilianagorga/portfolio-3/issues"
   },
   "homepage": "https://github.com/lilianagorga/portfolio-3#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
   "devDependencies": {
     "sass": "^1.62.1"
   }
