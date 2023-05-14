@@ -1,6 +1,6 @@
 # My Portofolio
 
 ## Teck Stack 
-* Html
-* Css
+* HTML
+* CSS
 * Vanilla JavaScript
