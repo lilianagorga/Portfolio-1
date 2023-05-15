@@ -1,28 +1,17 @@
 {
   "name": "portfolio-3",
   "version": "1.0.0",
-  "description": "## Teck Stack  * Html * Css * Vanilla JavaScript",
-  "main": "main.js",
+  "description": "Responsive portfolio",
+  "main": "index.js",
   "homepage": "https://lilianagorga.github.io/portfolio-3",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lilianagorga/portfolio-3.git"
-  },
-  "author": "",
+  "author": "Liliana",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lilianagorga/portfolio-3/issues"
-  },
   "dependencies": {
     "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
-  },
-  "devDependencies": {
-    "sass": "^1.62.1"
   }
 }
